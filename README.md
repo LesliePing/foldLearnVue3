@@ -1,34 +1,30 @@
-# 动态表单页面设计 —— Vue3.0 版本
+1.0.0 / ###### Thu Dec 10 15:44:40 CST 2020
+==================
 
-Vue3 + Typescript + Element-Plus 重构中......
 
-自动生成H5页面，一些简单的页面无需前端参与，运营人员自己新建修改即可
+  * 添加项目日志、注释vue3的api写法
+  * 项目特点: 
+        1.样式使用stylus
+        2.vue/cli 构建
 
-QQ交流群：[form-design 交流群：1032491358](https://qm.qq.com/cgi-bin/qm/qr?k=9xcxFRP3G6YbXzFjU9F8Ca1sMEFQOkNO&jump_from=webapi)
+2.5.0 / 2017-03-24
+==================
 
-扫码加群：
 
-![加群二维码](https://vincentzyc.github.io/form-design/qqqrcode.png "加群二维码")
+  * Change "kB" to "KB" in format output
+  * Change "kB" to "KB" in format output
+  * Change "kB" to "KB" in format output
+  * Change "kB" to "KB" in format output
+  * Change "kB" to "KB" in format output
+  * Change "kB" to "KB" in format output
+  * Remove support for Node.js 0.6
+  * Remove support for Node.js 0.6
+  * Remove support for Node.js 0.6
+  * Remove support for Node.js 0.6
+  * Remove support for ComponentJS
+  * Remove support for ComponentJS
+  * Remove support for ComponentJS
+  * Remove support for ComponentJS
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+2.4.0 / 2016-06-01
+==================

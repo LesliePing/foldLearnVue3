@@ -1,4 +1,4 @@
-import { defineComponent } from 'vue';
+import { defineComponent, onMounted } from 'vue';
 
 export default defineComponent({
   name: 'Main',
@@ -6,6 +6,10 @@ export default defineComponent({
     msg: String
   },
   setup(props) {
+    onMounted(() => {
+      console.log('组件挂载结束....')
+    })
+
     return () => (
       <div class="hello text-center">
         <img alt="Vue logo" src={require('@/assets/img/logo.png')} />
