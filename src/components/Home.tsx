@@ -1,4 +1,16 @@
-import { defineComponent, onMounted } from 'vue';
+import { defineComponent, onMounted, reactive, watch } from 'vue';
+/************************   新增开始  **************************/
+const state = reactive({ count: 0 })
+watch(
+  () => state.count,
+  (count, prevCount) => {
+    console.log(count, prevCount);
+  }
+)
+state.count = 3
+//-------------------------------------------------------------//
+//---- reactive 对象  ref 元素  computed追踪数据，对象，非响应式----//
+/************************   新增结束  ***************************/
 
 export default defineComponent({
   name: 'Main',
